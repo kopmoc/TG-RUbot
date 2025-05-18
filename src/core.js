@@ -296,15 +296,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "  如果你没有看到这些变化，说明编辑内容并未成功转发\\。" +
           "\n>  Perhaps you miss seeing that, you can try edit AGAIN with DIFFERENT CONTENT\\." +
           "  如果你错过了那个动画，你可以尝试再次编辑并更换内容\\。||" +
-  
-          "\n**>DELETE MESSAGE: 删除消息：**" +
-          "\n>  You can delete your messages I forwarded by REPLYING the origin message and TYPING `#del` to me\\." +
-          "  你可以通过回复原始消息并发送 `#del` 来让我删除我转发的消息\\。" +
-          "\n>  No additional process is needed\\. 不需要额外操作\\。" +
-          "\n>  But I can only delete my own messages, not yours\\. 所以我只能删除我发送的消息，无法删除你自己的消息\\。" +
-          "\n>  So, you need to delete the messages for yourself, include \\[origin message\\] \\[command message\\] and \\[notify message\\]\\.\\n" +
-          "  因此，你需要手动删除你自己的消息，包括 \\[原始消息\\]、\\[命令消息\\] 和 \\[通知消息\\]。||" +
-  
+
           "\n" +
           "\n*If you want to see this message again,* *如果你想再次查看此消息，*" +
           "\n*Send `/start` to me\\.* *请再次发送 `/start` 给我\\。*";
