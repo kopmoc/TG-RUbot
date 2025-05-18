@@ -277,7 +277,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>我会把你的消息转发给我的主人，反之亦然\。" +
 
           "\n*There are some details below:* *以下是一些详细说明：*" +
-          "\n**EMOJI REACTION: 表情符号反应：**" +
+          "\n*EMOJI REACTION: 表情符号反应：*" +
   
           "\n**>EMOJI REACTION: 表情符号反应：**" +
           "\n>  The emoji reaction 🕊 as seen below this message, indicates a successful forward\\. " +
