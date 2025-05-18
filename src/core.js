@@ -270,7 +270,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
     if ("/start" === message.text) {
       // Introduction words for various scenarios
       // 各种情况的介绍词
-      let introduction = "*欢迎\\!*" +
+      let introduction = "*Welcome\\!* *欢迎\\!*" +
           "\n>I'm a PM bot\\. 我是一个私信转发机器人\\。" +
           "\n>I'll forward your messages to my owner, and vice versa\\. 我会把你的消息转发给我的主人，反之亦然\\。" +
           "\n*There are some details below:* *以下是一些详细说明：*" +
