@@ -277,6 +277,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>我会把你的消息转发给我的主人，反之亦然\。" +
 
           "\n*There are some details below:* *以下是一些详细说明：*" +
+          "\n**EMOJI REACTION: 表情符号反应：**" +
   
           "\n**>EMOJI REACTION: 表情符号反应：**" +
           "\n>  The emoji reaction 🕊 as seen below this message, indicates a successful forward\\. " +
@@ -286,7 +287,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>  So that if you're a tg\\-premium\\-user and tap many emoji reactions for one message\\." +
           "\n>  I'll only forward the last one if it's a free emoji\\." +
           "\n>" +
-          "\n>  消息下方的🕊表示转发成功,如果你没有看到🕊，表示消息没有成功转发。你可以点击其他表情（除了🕊）来对你或我的消息做出反应，我也会将其转发。但作为一个机器人，受 Telegram 限制，我每条消息只能发送一个免费的表情反应,所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应,我只会转发最后一个免费表情。||" +
+          "\n>  消息下方的🕊表示转发成功,如果你没有看到🕊，表示消息没有成功转发。你可以点击其他表情（除了🕊）来对你或我的消息做出反应，我也会将其转发。但作为一个机器人，受 Telegram 限制，我每条消息只能发送一个免费的表情反应。所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应,我只会转发最后一个免费表情。||" +
           "\n**>EDIT MESSAGE: 编辑消息：**" +
           "\n>  You can edit your message as usual, but ONLY TEXT message for now\\." +
           "\n>  If forward success, the emoji reaction 🦄 will swiftly appear and revert to 🕊 after about 1s\\." +
