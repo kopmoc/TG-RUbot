@@ -288,10 +288,10 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>" +
           "\n>  消息下方的🕊表示转发成功,如果你没有看到🕊，表示消息没有成功转发。你可以点击其他表情（除了🕊）来对你或我的消息做出反应，我也会将其转发。但作为一个机器人，受TG限制，我每条消息只能发送*一个免费*的表情反应。所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应,我只会转发最后一个免费表情。||" +
           "\n**>EDIT MESSAGE: 编辑消息：**" +
-          "\n>  You can edit your message as usual, but ONLY TEXT message for now\\." +
+          "\n>  You can edit your message as usual, but *ONLY TEXT* message for now\\." +
           "\n>  If forward success, the emoji reaction 🦄 will swiftly appear and revert to 🕊 after about 1s\\." +
-          "\n>  If you don't see that, the EDITING hasn't been forwarded\\." +
-          "\n>  Perhaps you miss seeing that, you can try edit AGAIN with DIFFERENT CONTENT\\." +
+          "\n>  If you don't see that, the *EDITING* hasn't been forwarded\\." +
+          "\n>  Perhaps you miss seeing that, you can try edit *AGAIN* with *DIFFERENT CONTENT*\\." +
           "\n>" +
           "\n>  你可以像平常一样编辑你的消息，但目前*仅支持文本消息*\。" +
           "\n>  如果编辑成功转发，将会快速显示🦄并在约1秒后变为🕊\。" +
