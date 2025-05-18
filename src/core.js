@@ -289,21 +289,23 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>  So that if you're a tg\\-premium\\-user and tap many emoji reactions for one message\\." +
           "\n>  所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应\，" +
           "\n>  I'll only forward the last one if it's a free emoji\\." +
-          "\n>  我只会转发最后一个免费表情\\。||" +
+          "\n>  我只会转发最后一个免费表情。||" +
   
           "\n**>EDIT MESSAGE: 编辑消息：**" +
           "\n>  You can edit your message as usual, but ONLY TEXT message for now\\." +
-          "  你可以像平常一样编辑你的消息，但目前**仅支持文本消息**\\。" +
+          "\n>  你可以像平常一样编辑你的消息，但目前**仅支持文本消息**\。" +
           "\n>  If forward success, the emoji reaction 🦄 will swiftly appear and revert to 🕊 after about 1s\\." +
-          "  如果编辑成功转发，将会快速显示🦄并在约1秒后变为🕊\\。" +
+          "\n>  如果编辑成功转发，将会快速显示🦄并在约1秒后变为🕊\。" +
           "\n>  If you don't see that, the EDITING hasn't been forwarded\\." +
-          "  如果你没有看到这些变化，说明编辑内容并未成功转发\\。" +
+          "\n>  如果你没有看到这些变化，说明编辑内容并未成功转发\。" +
           "\n>  Perhaps you miss seeing that, you can try edit AGAIN with DIFFERENT CONTENT\\." +
-          "  如果你错过了那个动画，你可以尝试再次编辑并更换内容\\。||" +
+          "\n>  如果你错过了那个动画，你可以尝试再次编辑并更换内容\。||" +
 
           "\n" +
-          "\n*If you want to see this message again,* *如果你想再次查看此消息，*" +
-          "\n*Send `/start` to me\\.* *请再次发送 `/start` 给我\\。*";
+          "\n*If you want to see this message again,* " +
+          "\n*如果你想再次查看此消息，*" +
+          "\n*Send `/start` to me\\.* " +
+          "\n*请再次发送 `/start` 给我\。*";
       if (fromUser.id.toString() === ownerUid) {
         // for owner only
         introduction += "\n" +
