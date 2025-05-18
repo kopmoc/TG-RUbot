@@ -270,7 +270,7 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
     if ("/start" === message.text) {
       // Introduction words for various scenarios
       let introduction = "*Welcome\\!*" +
-          "\n>I'm a PM bot\\." +
+          "\n>我是私聊Bot\\." +
           "\n>I'll forward your messages to my owner, and vice versa\\." +
           "\n*There are some details below:*" +
           "\n**>EMOJI REACTION:" +
