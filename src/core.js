@@ -277,27 +277,26 @@ export async function handleWebhook(request, ownerUid, botToken, secretToken, ch
           "\n>我会把你的消息转发给我的主人，反之亦然\。" +
 
           "\n*There are some details below:* *以下是一些详细说明：*" +
-          "\n*EMOJI REACTION: 表情符号反应：*" +
   
           "\n**>EMOJI REACTION: 表情符号反应：**" +
           "\n>  The emoji reaction 🕊 as seen below this message, indicates a successful forward\\. " +
           "\n>  If you don't see that, the message hasn't been forwarded\\. " +
           "\n>  You can tap other emoji reaction for both your and my messages\\(except this one\\), and I'll forward it as well\\." +
-          "\n>  But as a bot, limited by TG, I can only send ONE FREE emoji reaction for each message\\." +
+          "\n>  But as a bot, limited by TG, I can only send *ONE FREE* emoji reaction for each message\\." +
           "\n>  So that if you're a tg\\-premium\\-user and tap many emoji reactions for one message\\." +
           "\n>  I'll only forward the last one if it's a free emoji\\." +
           "\n>" +
-          "\n>  消息下方的🕊表示转发成功,如果你没有看到🕊，表示消息没有成功转发。你可以点击其他表情（除了🕊）来对你或我的消息做出反应，我也会将其转发。但作为一个机器人，受 Telegram 限制，我每条消息只能发送一个免费的表情反应。所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应,我只会转发最后一个免费表情。||" +
+          "\n>  消息下方的🕊表示转发成功,如果你没有看到🕊，表示消息没有成功转发。你可以点击其他表情（除了🕊）来对你或我的消息做出反应，我也会将其转发。但作为一个机器人，受TG限制，我每条消息只能发送*一个免费*的表情反应。所以如果你是 Telegram 高级用户并对一条消息点击多个表情反应,我只会转发最后一个免费表情。||" +
           "\n**>EDIT MESSAGE: 编辑消息：**" +
           "\n>  You can edit your message as usual, but ONLY TEXT message for now\\." +
           "\n>  If forward success, the emoji reaction 🦄 will swiftly appear and revert to 🕊 after about 1s\\." +
           "\n>  If you don't see that, the EDITING hasn't been forwarded\\." +
           "\n>  Perhaps you miss seeing that, you can try edit AGAIN with DIFFERENT CONTENT\\." +
           "\n>" +
-          "\n>  你可以像平常一样编辑你的消息，但目前**仅支持文本消息**\。" +
+          "\n>  你可以像平常一样编辑你的消息，但目前*仅支持文本消息*\。" +
           "\n>  如果编辑成功转发，将会快速显示🦄并在约1秒后变为🕊\。" +
-          "\n>  如果你没有看到这些变化，说明编辑内容并未成功转发\。" +
-          "\n>  如果你错过了那个动画，你可以尝试再次编辑并更换内容\。||" +
+          "\n>  如果你没有看到这些变化，说明编辑内容*并未成功*转发\。" +
+          "\n>  如果你错过了那个动画，你可以尝试*再次编辑并更换内容*\。||" +
 
           "\n" +
           "\n*If you want to see this message again,* " +
